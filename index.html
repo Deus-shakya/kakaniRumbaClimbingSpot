@@ -1,47 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home | Rock Climbing Adventures</title>
     <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <div id="logo-img">
-                    <a href="index.html">
-                        <img src="images/logo/logo-no-background.png" alt="Logo" />
-                    </a>
-                </div>
-                <a href="index.html"><p>Kakani Rumba Climbing Spot</p></a>
+    <title>Rumba Climbing</title>
+  </head>
+  <body>
+    <nav id="navBar">
+      <div id="logoMain"></div>
+      <div id="menu">
+        <ol>
+          <a href="index.html"><li>Home</li></a>
+          <a href="ourStory.html"><li>Our Story</li></a>
+          <a href="gallery.html"><li>Gallery</li></a>
+          <a href="routes.html"><li>Routes</li></a>
+          <a href="contact.html"><li>Contact Us</li></a>
+        </ol>
+      </div>
+    </nav>
+        <main id="container">
+            <div class="hero">
+                <h1 class="heroText">WELCOME TO RUMBA CLIMBING</h1>
+                <p class="heroText">WHERE ADVENTURE MEETS NATURE</p>
             </div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="slides">
-                <div class="slide active" style="background-image: url('/images/hero/IMG_8902.jpg');"></div>
-                <div class="slide" style="background-image: url('/images/hero/IMG_8946.jpg');"></div>
-                <div class="slide" style="background-image: url('/images/hero/IMG_8951.jpg');"></div>
-            </div>
-            <h1>Welcome to Rock Climbing Adventures</h1>
-            <p>Experience the thrill of climbing with us.</p>
-            <a href="about.html" class="cta">Learn More</a>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2024 Rock Climbing Adventures</p>
-        </div>
-    </footer>
-    <script src="scripts/slider.js"></script>
-</body>
+        </main>
+  </body>
 </html>
